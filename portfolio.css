@@ -1,0 +1,58 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    background: rgb(167, 167, 220);
+    width: 100%;
+    margin-top: 0px;
+    height: 35px;
+    padding-top: 15px;
+}
+.links{
+    display: inline;
+    font-size: medium;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 2px 4px black;
+}
+a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 100px;
+    width: 40%;
+}
+#name{
+    font-family: 'Poppins', sans-serif;
+}
+#welcome{
+    background: linear-gradient(to right, rgb(247, 212, 169),rgb(254, 208, 151))
+}
+.line{
+    height: 5px;
+    background-color: black;
+    width: 50PX;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1{
+    display: inline;
+}
+.backgroundcolor{
+    background-image: url(./bimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
